@@ -1,0 +1,16 @@
+server:
+  port: 8084
+spring:
+  datasource:
+    url: jdbc:mysql://db-mysql-fra1-46077-do-user-12982364-0.b.db.ondigitalocean.com:25060/cinema?ssl-mode=REQUIRED
+    username: doadmin
+    password: AVNS_5e55KUsOnBQvrKANZje
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
